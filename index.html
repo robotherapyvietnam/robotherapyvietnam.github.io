@@ -51,6 +51,21 @@
 
                         <li class="nav-item">
                             <a class="nav-link "
+                               href="/blog.html">
+                                Tin tức
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
                                href="/events.html">
                                 Sự kiện
                             </a>
@@ -129,7 +144,19 @@
     #responsive-image {width: 90%;  height: auto; } 
     .marginauto {
     margin: 10px auto 20px;
-    display: block;
+    display: block;}
+    .column {
+      float: left;
+      width: 30%;
+      margin: 10px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
 }
 </style>
 
@@ -139,9 +166,25 @@
     </p>
 </div>
 
-<div>
-     <img class="marginauto" src="/img/banner.png" id="responsive-image" alt="centered image" />  
+<div class="row">
+    <div class="column">
+        <img class="marginauto" src="/img/survey-banner.png" id="responsive-image" alt="centered image" />  
+        <h2 style="text-align:center; color:#0b7cffff;">Khảo sát</h2>
+        <h5 style="text-align:center;">Khảo sát ý kiến cộng đồng về trị liệu robot cho trẻ tự kỷ</h5>
+    </div>
+    <div class="column">
+        <img class="marginauto" src="/img/event-banner.png" id="responsive-image" alt="centered image" />  
+        <h2 style="text-align:center; color:#0b7cffff;">Thông tin</h2>
+        <h5 style="text-align:center;">Hội thảo, tập huấn, seminar về tự kỷ và trị liệu bằng robot</h5>
+    </div>
+    <div class="column">
+        <img class="marginauto" src="/img/experiment-banner.png" id="responsive-image" alt="centered image" />  
+        <h2 style="text-align:center; color:#0b7cffff;">Thực nghiệm</h2>
+        <h5 style="text-align:center;">Ứng dụng trị liệu robot cho trẻ tự kỷ ở Việt Nam</h5>
+    </div>
 </div>
+
+<br>
 
 <section>
     <h2>Tin tức</h2>
@@ -299,7 +342,7 @@
 </section>
 
 <div id="rat">
-<h2>Trị liệu tự kỷ sử dụng robot</h6>
+<h2>Trị liệu tự kỷ sử dụng robot</h2>
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/CZ55qVcxzLM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -307,6 +350,11 @@
     <p>Các nghiên cứu gần đây cho cho thấy trị liệu bằng robot có những kết quả đầy hứa hẹn. Một trong những nhóm đối tượng đầu tiên được áp dụng trị liệu bằng robot là trẻ em mắc chứng rối loạn phổ tự kỷ (ASD). Những trẻ này thường gặp khó khăn trong tương tác xã hội, giao tiếp và ứng xử. Một số trẻ tự kỷ có xu hướng thích các thiết bị kỹ thuật công nghệ như máy tính và robot hơn con người vì chúng đơn giản và có hành vi dễ phán đoán hơn.</p>
     <p>Dự án này hướng tới việc nghiên cứu tiềm năng ứng dụng robot trong trị liệu tự kỷ ở trẻ em Việt nam. Dự án tập trong vào việc tìm hiểu thái độ của cộng đồng và xa hơn nữa là thúc đẩy các nghiên cứu về robot tương tác xã hội nhằm cải thiện các kỹ năng xã hội của trẻ tự kỷ ở Việt Nam. Chúng tôi hi vọng rằng dự án sẽ có những đóng góp nhất định cho cộng đồng.</p>
 
+</div>
+
+<div id=funding>
+    <h2>Đơn vị tài trợ</h2>
+    <p> (cập nhật sau)
 </div>
 
 <div id="people">
